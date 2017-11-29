@@ -14,7 +14,7 @@ package pf.estructuradatos;
 public class Graph {
     private int v, e; //Vertices y ejes del programa (conexiones y nodos)
     List<Edge> g[];
-    boolean visited[]; //
+    boolean visited[]; //Lista de booleanos que relaciona los nodos ya visitados
     String pathString=""; //Variable de impresión global
     int[] parentNodes; //Guarda el registro de los previos
     
